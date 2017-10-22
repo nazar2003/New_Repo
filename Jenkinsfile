@@ -1,0 +1,1 @@
+date;uname -a
