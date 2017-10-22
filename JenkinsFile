@@ -5,7 +5,7 @@ label 'master'
 stages{
 stage('my startup'){
 steps{
-sh date
+sh (script:'date')
 }
 }
 
