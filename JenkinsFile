@@ -1,1 +1,11 @@
-date;uptime
+pipeline{
+stages{
+stage('my startup'){
+steps{
+sh date;uname -a
+}
+}
+
+}
+
+}
